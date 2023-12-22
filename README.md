@@ -19,5 +19,5 @@ LANGFUSE_SECRET_KEY=
 
 2. Install dependencies
 
-2. Initialize the database
+3. Initialize the database
 `flask --app app.web init-db`
