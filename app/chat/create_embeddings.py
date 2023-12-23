@@ -26,4 +26,4 @@ def create_embeddings_for_pdf(pdf_id: str, pdf_path: str):
     loader = PyPDFLoader(pdf_path)
     docs = loader.load_and_split(text_splitter)
 
-    #print(docs)
+    print(docs)
