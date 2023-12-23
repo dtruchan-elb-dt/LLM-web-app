@@ -7,7 +7,7 @@ LLM-powered web app that allows user to ask questions about uploaded data
 1. Create .env
 SECRET_KEY=123
 SQLALCHEMY_DATABASE_URI=sqlite:///sqlite.db
-UPLOAD_URL=https://prod-upload-langchain.fly.dev
+UPLOAD_URL=http://localhost:8050
 
 OPENAI_API_KEY=
 
@@ -73,8 +73,3 @@ Start the server with `python app.py`
 In the pdf project, find the .env file and change the UPLOAD_URL line to the following: UPLOAD_URL=http://localhost:8050
 
 Restart the PDF project
-
-
-delete:
-conda activate pdf
-(pdf) root@WDEC044734:~/projects/LLM-web-app# 
