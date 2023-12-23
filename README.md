@@ -59,4 +59,22 @@ redis-server
 flask --app app.web init-db
 ```
 
+
+## Running Upload Server Locally
+
+```
+cd local-do-files
+```
+
+Install dependencies with `pip install -r requirements.txt`
+
+Start the server with `python app.py`
+
+In the pdf project, find the .env file and change the UPLOAD_URL line to the following: UPLOAD_URL=http://localhost:8050
+
+Restart the PDF project
+
+
+delete:
 conda activate pdf
+(pdf) root@WDEC044734:~/projects/LLM-web-app# 
